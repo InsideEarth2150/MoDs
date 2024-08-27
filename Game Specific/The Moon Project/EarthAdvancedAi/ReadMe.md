@@ -33,11 +33,13 @@ This is a mod for The Moon Project that provides extremely strong AI for Skirmis
 
 #### Installation
 1. Ensure that you have your game patched to at least **2.1.1.1** (singleplayer) or **2.2.1.3** (multiplayer) patch.
-2. Place the `.ieo` file inside `Modules` directory in your game folder
-3. Place the `.wd` file inside `WD Files` directory in your game folder.
+2. Remove any earlier version of the mod (both .ieo and .wd files)
+3. Place the `.ieo` file inside `Modules` directory in your game folder
+4. Place the `.wd` file inside `WD Files` directory in your game folder.
 
 #### Credits
 This mod was created by *Guardian* from Inside Earth Operations. <br/>
 There were however other people from Inside Earth community involved. <br/>
 **Level design**: *Szakael* <br/>
+**Scripts**: *Keter*, *Kumu* <br/>
 **Tests**: *Ajack*, *Animal*, *Noctis*, *Szakael*
