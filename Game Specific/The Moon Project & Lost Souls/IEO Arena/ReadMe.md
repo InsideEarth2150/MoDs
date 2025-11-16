@@ -34,6 +34,7 @@ This mod offers a completely rebuilt version of the arena mode. Unlike the origi
 - MIXED - units will be from all (low/medium/high) tech levels
 - RANDOM - tech level will be randomized before each round (low/medium/high/mixed)
 - RANDOM PER PLAYER - tech level will be randomized for each player before each round (thus one can get light units, the other one heavy, yet another mixed etc)
+
 ✅ **Unit composition**
 - FIXED - players will receive units according to a hardcoded template
 - RANDOM - units will be generated randomly from those available in the current tech level
