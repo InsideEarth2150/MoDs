@@ -700,7 +700,10 @@ mission "IEO-Arena"
 	{
 		int unitClass;
 		int faction;
-		
+		int tech;
+
+		tech = owner.GetScriptData(DATA_UNIT_TECH);
+
 		if (comboUnitComposition == UNIT_COMP_RANDOM || comboUnitComposition == UNIT_COMP_X_FACTION_RANDOM)
 		{
 			unitClass = GetRandomClass(owner);
@@ -725,7 +728,7 @@ mission "IEO-Arena"
 		
 		if (owner.GetScriptData(DATA_UNIT_FACTION) == raceLC)
 		{
-			if (CurrentTechLevel == TECH_LEVEL_LOW || CurrentTechLevel == TECH_LEVEL_MIXED && unitNumber % 3 == 1)
+			if (tech == TECH_LEVEL_LOW || tech == TECH_LEVEL_MIXED && unitNumber % 3 == 1)
 			{
 				if (unitNumber == 0)
 					Spawn_NewHope_P(owner, unitNumber, x, y, z, SHIELD_SMALL);
@@ -768,7 +771,7 @@ mission "IEO-Arena"
 				else if (unitNumber == 19)
 					Spawn_NewHope_Banner(owner, unitNumber, x, y, z, SHIELD_SMALL);
 			}
-			else if (CurrentTechLevel == TECH_LEVEL_MEDIUM || CurrentTechLevel == TECH_LEVEL_MIXED && unitNumber % 3 == 2)
+			else if (tech == TECH_LEVEL_MEDIUM || tech == TECH_LEVEL_MIXED && unitNumber % 3 == 2)
 			{
 				if (unitNumber == 0)
 					Spawn_Crater_He_E(owner, unitNumber, x, y, z, SHIELD_MEDIUM);
@@ -811,7 +814,7 @@ mission "IEO-Arena"
 				else if (unitNumber == 19)
 					Spawn_Crater_hR(owner, unitNumber, x, y, z, SHIELD_MEDIUM);
 			}
-			else if (CurrentTechLevel == TECH_LEVEL_HIGH || CurrentTechLevel == TECH_LEVEL_MIXED && unitNumber % 3 == 0)
+			else if (tech == TECH_LEVEL_HIGH || tech == TECH_LEVEL_MIXED && unitNumber % 3 == 0)
 			{
 				if (unitNumber == 0)
 					Spawn_Crusher_He_P(owner, unitNumber, x, y, z, SHIELD_LARGE);
@@ -857,7 +860,7 @@ mission "IEO-Arena"
 		}
 		else if (owner.GetScriptData(DATA_UNIT_FACTION) == raceED)
 		{
-			if (CurrentTechLevel == TECH_LEVEL_LOW || CurrentTechLevel == TECH_LEVEL_MIXED && unitNumber % 3 == 1)
+			if (tech == TECH_LEVEL_LOW || tech == TECH_LEVEL_MIXED && unitNumber % 3 == 1)
 			{
 				if (unitNumber == 0)
 					Spawn_Siberia_L(owner, unitNumber, x, y, z, SHIELD_SMALL);
@@ -900,7 +903,7 @@ mission "IEO-Arena"
 				else if (unitNumber == 19)
 					Spawn_Siberia_Banner(owner, unitNumber, x, y, z, SHIELD_SMALL);
 			}
-			else if (CurrentTechLevel == TECH_LEVEL_MEDIUM || CurrentTechLevel == TECH_LEVEL_MIXED && unitNumber % 3 == 2)
+			else if (tech == TECH_LEVEL_MEDIUM || tech == TECH_LEVEL_MIXED && unitNumber % 3 == 2)
 			{
 				if (unitNumber == 0)
 					Spawn_Kaukas_hL_L(owner, unitNumber, x, y, z, SHIELD_MEDIUM);
@@ -943,7 +946,7 @@ mission "IEO-Arena"
 				else if (unitNumber == 19)
 					Spawn_Kaukas_hR(owner, unitNumber, x, y, z, SHIELD_MEDIUM);
 			}
-			else if (CurrentTechLevel == TECH_LEVEL_HIGH || CurrentTechLevel == TECH_LEVEL_MIXED && unitNumber % 3 == 0)
+			else if (tech == TECH_LEVEL_HIGH || tech == TECH_LEVEL_MIXED && unitNumber % 3 == 0)
 			{
 				if (unitNumber == 0)
 					Spawn_Ural_hL_L(owner, unitNumber, x, y, z, SHIELD_LARGE);
@@ -1009,7 +1012,7 @@ mission "IEO-Arena"
 		}
 		else if (owner.GetScriptData(DATA_UNIT_FACTION) == raceUCS)
 		{
-			if (CurrentTechLevel == TECH_LEVEL_LOW || CurrentTechLevel == TECH_LEVEL_MIXED && unitNumber % 3 == 1)
+			if (tech == TECH_LEVEL_LOW || tech == TECH_LEVEL_MIXED && unitNumber % 3 == 1)
 			{
 				if (unitNumber == 0)
 					Spawn_Spider_P(owner, unitNumber, x, y, z, SHIELD_SMALL);
@@ -1052,7 +1055,7 @@ mission "IEO-Arena"
 				else if (unitNumber == 19)
 					Spawn_Spider_Banner(owner, unitNumber, x, y, z, SHIELD_SMALL);
 			}
-			else if (CurrentTechLevel == TECH_LEVEL_MEDIUM || CurrentTechLevel == TECH_LEVEL_MIXED && unitNumber % 3 == 2)
+			else if (tech == TECH_LEVEL_MEDIUM || tech == TECH_LEVEL_MIXED && unitNumber % 3 == 2)
 			{
 				if (unitNumber == 0)
 					Spawn_Panther_hP_P(owner, unitNumber, x, y, z, SHIELD_MEDIUM);
@@ -1095,7 +1098,7 @@ mission "IEO-Arena"
 				else if (unitNumber == 19)
 					Spawn_Panther_hR(owner, unitNumber, x, y, z, SHIELD_MEDIUM);
 			}
-			else if (CurrentTechLevel == TECH_LEVEL_HIGH || CurrentTechLevel == TECH_LEVEL_MIXED && unitNumber % 3 == 0)
+			else if (tech == TECH_LEVEL_HIGH || tech == TECH_LEVEL_MIXED && unitNumber % 3 == 0)
 			{
 				if (unitNumber == 0)
 					Spawn_Jaguar_hP_P(owner, unitNumber, x, y, z, SHIELD_LARGE);
@@ -2164,7 +2167,7 @@ mission "IEO-Arena"
 		if (rainstorm)
 		{
 			Storm(16, 16, GetBottom() / 2, 100, WEATHER_EFFECT_DURATION, 100, 1, 3, 5);
-			Storm(16, GetBottom() / 2, GetBottom() - 16, 100, WEATHER_EFFECT_DURATION, 100, 1, 3, 5);
+			Storm(16, GetBottom() - 16, GetBottom() / 2, 100, WEATHER_EFFECT_DURATION, 100, 1, 3, 5);
 			Storm(GetRight() - 16, 16, GetBottom() / 2, 100, WEATHER_EFFECT_DURATION, 100, 1, 3, 5);
 			Storm(GetRight() - 16, GetBottom() - 16, GetBottom() / 2, 100, WEATHER_EFFECT_DURATION, 100, 1, 3, 5);
 		}

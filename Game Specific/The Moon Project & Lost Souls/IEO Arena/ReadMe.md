@@ -61,3 +61,11 @@ This mod offers a completely rebuilt version of the arena mode. Unlike the origi
   - RANDOM/FIXED - players will receive in each round a set of hardcoded units of a random tier (low/medium/high/mixed) of their faction. The randomized tier is the same for all players
   - RANDOM PER PLAYER/X-FACTION RANDOM - players will receive in each round a set of random units of a random tier (low/medium/high/mixed) of a random faction. The tier is randomized per player, so one player could get light units, and the other one could get heavy units in the very same round.
   - RANDOM/X-FACTION UNIFORM - players will receive in each round a set of multiple instances of exactly the same random unit of a random faction. Unit faction, tier and type is randomized independently - one player can get MG Salamander, another can get a pack of immortal Grizzlies.
+
+## Changelog
+**v1.1**
+- Fixed RANDOM PER PLAYER tech level combined with FIXED or X-FACTION FIXED unit composition - players received no units and rounds ended immediately
+- Fixed one of the four dynamic weather rainstorms being placed incorrectly
+
+**v1.0**
+- Initial release
