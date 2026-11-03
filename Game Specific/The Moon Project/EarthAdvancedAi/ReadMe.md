@@ -169,5 +169,4 @@ v1.1:
 
 **Author:** Guardian  
 **Version:** 1.7  
-**Type:** AI & Combat Logic Overhauls  
-**Games:** The Moon Project
+**Type:** AI & Combat Logic Overhauls
