@@ -1,6 +1,9 @@
+**Author:** Guardian  
+**Version:** 1.7  
+**Type:** Game  
+**Games:** The Moon Project  
 ### Earth 2150: The Moon Project
 ### Advanced AI mod v1.7
-*by Guardian*
 
 **WARNING: There are two custom game modes here - the one with "-MP-" in name should be used only in 2.2.2.2+ multiplayer patch. It will be broken and may crash in SP patch. Use the first game mode (IEO-AdvAI-DestroyStructures) for single player.
 
