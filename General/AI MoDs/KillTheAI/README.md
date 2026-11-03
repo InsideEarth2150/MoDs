@@ -10,4 +10,4 @@ Credits:
 
 **Author:** Mortal Combatant  
 **Version:** 0.9  
-**Type:** AI
+**Type:** AI & Combat Logic Overhauls
