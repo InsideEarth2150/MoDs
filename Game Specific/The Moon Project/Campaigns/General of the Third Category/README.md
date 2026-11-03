@@ -16,5 +16,5 @@ As the first major mod from the Polish community, The Moon Project is truly gett
 
 **Author:** KP 2140  
 **Version:** 1.0  
-**Type:** Campaign  
+**Type:** Custom Campaigns & Mission Packs  
 **Games:** The Moon Project

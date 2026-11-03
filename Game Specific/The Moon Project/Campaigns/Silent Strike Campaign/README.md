@@ -18,5 +18,5 @@ Known bugs: - Fixed in v1.01:
 
 **Author:** ONE  
 **Version:** 1.01  
-**Type:** Campaign  
+**Type:** Custom Campaigns & Mission Packs  
 **Games:** The Moon Project

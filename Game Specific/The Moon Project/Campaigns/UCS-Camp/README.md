@@ -84,5 +84,5 @@ Tips:
 
 **Author:** Cayenne  
 **Version:** 1.0  
-**Type:** Campaign  
+**Type:** Custom Campaigns & Mission Packs  
 **Games:** The Moon Project
