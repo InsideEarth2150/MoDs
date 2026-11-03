@@ -1,7 +1,3 @@
-**Author:** Guardian  
-**Version:** 1.7  
-**Type:** Game  
-**Games:** The Moon Project  
 ### Earth 2150: The Moon Project
 ### Advanced AI mod v1.7
 
@@ -168,3 +164,10 @@ v1.1:
 - AI no longer "cheats" with artillery/MDW by targeting structures that it shouldn't be aware of
 - new versions of AI maps + new levels
 - rebalanced some difficulty levels
+
+---
+
+**Author:** Guardian  
+**Version:** 1.7  
+**Type:** Game  
+**Games:** The Moon Project
