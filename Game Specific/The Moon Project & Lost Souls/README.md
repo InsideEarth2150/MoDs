@@ -63,3 +63,8 @@ The file contains a Polish readme.
 A mod that makes all weapons reacharge on their own, which eliminates the need to use ammo suppliers. It is based on 2.1 weapon parameters.
 
 **Installation:** Unpack to `..\The Moon Project\Custom WD Files`.
+
+---
+
+**Type:** AI & Combat Logic Overhauls  
+**Games:** The Moon Project, Lost Souls

@@ -69,7 +69,9 @@ This mod offers a completely rebuilt version of the arena mode. Unlike the origi
 **v1.0**
 - Initial release
 
+---
+
 **Author:** Guardian and Szakael  
 **Version:** 1.1  
-**Type:** Game  
+**Type:** AI & Combat Logic Overhauls  
 **Games:** The Moon Project, Lost Souls
