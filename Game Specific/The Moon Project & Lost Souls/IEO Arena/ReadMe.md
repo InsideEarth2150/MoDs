@@ -1,9 +1,5 @@
 # IEO Arena
 
-**Author:** Guardian and Szakael  
-**Version:** 1.1  
-**Type:** Game  
-**Games:** The Moon Project, Lost Souls  
 This mod offers a completely rebuilt version of the arena mode. Unlike the original one, it enables dynamic, heavily configurable and very fun battles of up to 20 units per player. 
 
 **Installation**
@@ -72,3 +68,8 @@ This mod offers a completely rebuilt version of the arena mode. Unlike the origi
 
 **v1.0**
 - Initial release
+
+**Author:** Guardian and Szakael  
+**Version:** 1.1  
+**Type:** Game  
+**Games:** The Moon Project, Lost Souls
