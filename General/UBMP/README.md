@@ -2,4 +2,5 @@
 
 ---
 
-**Type:** Unit & Faction Additions
+**Type:** Unit & Faction Additions  
+**Games:** The Moon Project, Lost Souls

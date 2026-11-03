@@ -49,4 +49,4 @@ You can create issues on GitHub, write a mail to me, chat with me or create pull
 **Author:** Surrim  
 **Version:** 1.0  
 **Type:** Total Conversions / Full Mods  
-**Games:** The Moon Project
+**Games:** The Moon Project, Lost Souls
