@@ -2,5 +2,5 @@
 
 ---
 
-**Type:** Languages  
+**Type:** Translations  
 **Games:** The Moon Project, Lost Souls
