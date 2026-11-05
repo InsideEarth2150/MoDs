@@ -2,5 +2,5 @@
 
 ---
 
-**Type:** AI & Combat Logic Overhauls  
+**Type:** Others  
 **Games:** The Moon Project, Lost Souls

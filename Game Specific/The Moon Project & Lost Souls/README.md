@@ -66,5 +66,5 @@ A mod that makes all weapons reacharge on their own, which eliminates the need t
 
 ---
 
-**Type:** AI & Combat Logic Overhauls  
+**Type:** Others  
 **Games:** The Moon Project, Lost Souls
