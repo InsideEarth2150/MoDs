@@ -1,5 +1,5 @@
 ### Earth 2150: The Moon Project
-### Advanced AI mod v1.7
+### Advanced AI mod v1.9
 
 **WARNING: There are two custom game modes here - the one with "-MP-" in name should be used only in 2.2.2.2+ multiplayer patch. It will be broken and may crash in SP patch. Use the first game mode (IEO-AdvAI-DestroyStructures) for single player.
 
@@ -20,10 +20,10 @@ This is a mod for The Moon Project that provides extremely strong AI for Skirmis
 - In modes with mining resources, the strongest AI plays at a level of a strong MP player and even the strongest multi player can lose a 1v1 if they are caught off guard.
 
 #### Limitations
-- LC players are very weak compared to ED/UCS players, but that's not AI limitation, but the game limitation.
+- In tech war, LC players are very weak compared to ED/UCS players, but that's not AI limitation, but the game limitation.
   LC just cannot build faster than it currently does, what makes it multiple times weaker in Techwar.
   Despite accelerated LC mode, `[I]`mpossible LC bot still cannot beat `[M]`edium ED/UCS bots in a TechWar 1v1.
-- in economy modes, LC is still weaker than others, but the difference is not that big anymore
+- in economy modes, LC is still slightly weaker than others, but it can put an early pressure with a rush
 - The mod provides quite a few custom maps with ` (AI)` prefix. Those maps should work well with this mod.
   On other maps, bots may experience some issues with mining resources, units blocking themselves,
   builders attempting to build in unreachable locations, etc.
@@ -43,6 +43,33 @@ There were however other people from Inside Earth community involved. <br/>
 **Tests**: *Ajack*, *Animal*, *Noctis*, *Szakael*
 
 #### Changelog
+v1.9:
+- reworked units combat in battles ([I]mpossible only)
+- reworked LC - bots start their games with a rush ([H]+)
+- 2.2.2.5 fixes - the AI now properly sells permanently disabled structures
+- smaller fixes and typos in code
+- fixed screamer research in TechWar
+
+v1.8:
+- [I] AI can rush with small towers if it starts very close
+- AI prefers salamanders as an AA chassis, unless enemies are committed to energy. i think this is probably a... "not terrible decision" (I almost called it good), as Spiders are too easily getting killed by any R/hR aircraft
+- AI will build more AA against aircraft
+- some smaller fixes to SDI placement and "interventions" (which is, actively using idle forces to react to current threats) mechanisms
+- improved targeting while at advantage, what makes AI push a bit more
+- improved FFA performance, by selecting just one main enemy at a time instead of closest 3 - this leads to faster resolutions, as earlier AIs were pretty defensive because of trying to hold 3 fronts at once. AI should still defend against other threats than main enemy due to "interventions"
+- the main enemy target is selected randomly if there are more eligible (close enough) targets
+- better scout management for the AI, who uses them in a more sensible than "random" manner in early minutes
+- split "Endless resources" mining option into "Endless mining" and "Endless mining (no trenching)"
+- increased default zoom level after game start
+- LC starting Phobos now has the "Scout" script by default
+- Lost Souls support - the mod is no longer The Moon Project exclusive
+- bots can detect trenches being placed and they will attempt to undo them [VH+]
+  - AI will attempt to flatten terrain near trenches, unless it has a human teammate
+  - a single bot may commit max 3 builders for this task
+  - if walled trenches are present, AI will switch to anti-turtle mode, rushing mobile artillery - these take out walls a bit easier
+- removed possible crash that could happen in future patches/mods
+- if screamers are separated from radars, only [H+] bots will build them
+
 v1.7:
 - AI players can now be controlled by human teammates via buttons available upon selecting any of the bot's structure
 - LC will now research, build and use WCC if season allows rainstorm or meteors [H+]
@@ -168,6 +195,6 @@ v1.1:
 ---
 
 **Author:** Guardian  
-**Version:** 1.7  
+**Version:** 1.9  
 **Type:** AI & Combat Logic Overhauls  
-**Games:** The Moon Project
+**Games:** The Moon Project, Lost Souls
